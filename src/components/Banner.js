@@ -62,11 +62,11 @@ function Banner() {
                     <br />
                     <span className="wrap">{text}</span>
                   </h1>
-                  <p>
+                  {/* <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy text ever since the 1500s.
-                  </p>
+                  </p> */}
                   <button type="button" onClick={() => console.log("connect")}>
                     Let's Connect <ArrowRightCircle size={25} />
                   </button>
